@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to LuLu.today</title>
+
+</head>
+<!-- link CSS file and google font -->
+	<link rel="stylesheet" type="text/css" href="/static/css/intro_page.css">
+    <!--<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"> -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900,700,500,300italic,300' rel='stylesheet' type='text/css'>
+    
+<body>
+<!-- Top Division, logo and site name. Menu buttons in the future -->
+<div class="topHead">
+	<div class="sLogo" ><img src="/static/images/Lulu Logo Red.jpg" width="35px" height="35px" alt="LuLu.today Logo"/></div>
+    <div class="siteName">
+    	LuLu<span style="color: #E03D3C; font-family: azo-sans-web; font-weight: 700;">.</span><span style="font-weight: 500">today</span>
+    </div>
+</div>
+
+<!-- Main body of the page. Big Logo on the Left Div, Text on the Right Div -->
+<div class="middle">
+	<div class="bLogo"><img src="/static/images/Lulu Logo Red.jpg" width="444" height="444" alt="LuLu.today Logo"/></div>
+    <!-- Right half of the mid Div including 4 sub divs: hello, welcome, introduction and a form -->
+    <div class="midRight">
+    	<h1 class="hello">
+       		Hello! <br><span style="letter-spacing:-9px;">Yo </span>u’ve found us!
+        </h1>
+        <h2 class="welcome">
+        	Welcome to <span style="font-weight: 700">LuLu</span><span style="color: #E03D3C">.</span>today
+        </h2>
+        <div class="introduction">
+                <p id="p1">
+                LuLu<span style="color:#E03D3C">.</span>today is a website proving the simplest<br>
+                ways to arrange meetings, events and trips.<br>
+                </p>
+                <p id="p2">
+                The website is still under construction.<br>
+                If you are interested in getting latest news<br>
+                from us, please kindly fill out the form below. <br>
+                Thank you!
+                </p>
+            </p>
+        </div>
+        <!-- Interest info form -->
+        <div class="form" style="line-height:31px">
+        <form action="/leaveContactInfo/" method="get">
+            <input id="nameInput" type="text" name="name"  size="50" placeholder=" Your Name" required>
+            <input id="submit" type="submit" name="submit" >
+            <br>
+            <input id="emailInput"type="email" name="email" size="68" placeholder=" Email Address" required>
+            <br>
+            <input id="howInput" type="text" name="hearFrom" size="68" placeholder=" How did you know us?">
+            <br>
+            <input id="commentInput" type="text" name="comment" size="68" placeholder=" Any comment, expectation etc.">
+        </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

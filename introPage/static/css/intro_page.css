@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing:border-box;
+}
+
+*/
+
+/* top div*/
+.topHead{
+	/* different display for different browsers*/
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-bottom: 1px solid #9F9F9F;
+}
+
+/*small logo inside the top Div */
+.sLogo{
+	margin:2px;
+}
+/*site name text inside the top Div */
+.siteName{
+	margin-left: 2px;
+	padding: 2px;
+	font-size: 20.88pt;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin-top: 2px;	
+}
+
+/*main body Div*/
+.middle{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	  
+	-webkit-flex-flow: row wrap;
+	/*justify-content:center;
+	max-width: 960px;*/
+	margin: 0px auto;
+	-webkit-align-content:center;
+}
+ /*big logo of left side of mid Div */
+.bLogo{
+	margin-right: 27px;
+	margin-left: auto; /* centered*/
+	margin-top: 10%;
+}
+
+/*text Div of the mid Div*/
+.midRight{
+	margin-top: 9%;
+	margin-left: 13px;
+	margin-right: auto; /*centered*/
+}
+
+/* first head */
+.hello{
+	padding: 0px;
+	font-size: 48pt;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	letter-spacing: -2.5px; /*kerning letters*/
+	text-align: left;
+	line-height: 50px; /*tracking lines*/
+	margin-top: 11px;
+}
+
+/*second head*/
+.welcome{
+	margin-top: -37px;
+	margin-bottom: 22px;
+	font-size: 36pt;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	border-top: 1px solid #9F9F9F;
+	border-bottom: 1px solid #9F9F9F;
+	width: 450px;
+	padding-bottom: 0px;
+	letter-spacing: -2.8px; /*kerning letters*/
+	margin-left: 0px;
+}
+
+.introduction{
+	margin-top: -15px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-size: 14.98pt;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 23px; /*tracking lines*/
+}
+
+p {
+	margin:0px;
+}
+
+#p2 {
+	margin-top:9px;
+}
+
+form{
+	margin-top: 10px;
+}
+
+/*input box formating*/
+#nameInput{
+	border:1px solid #9F9F9F;
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;
+	font-weight: 300;
+	color:#9F9F9F;
+	height:17px;
+	width:295px;
+}
+
+/*input box formating*/
+#emailInput{
+	border:1px solid #9F9F9F;
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;
+	font-weight: 300;
+	color:#9F9F9F;
+	height:17px;
+	width:450px;
+}
+
+/*input box formating*/
+#howInput{
+	border:1px solid #9F9F9F;
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;
+	font-weight: 300;
+	color:#9F9F9F;
+	height:17px;
+	width:450px;
+}
+
+/*input box formating*/
+#commentInput{
+	border:1px solid #9F9F9F;
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;
+	font-weight: 300;
+	color:#9F9F9F;
+	height:17px;
+	width:450px;
+}
+
+/*submit button formating*/
+#submit{
+	border: 1px solid #E03D3C;
+	background: white;
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;
+	font-weight: 300;
+	color: #E03D3C;
+	width: 151px;
+}
+
+/*changing color when cursor hover the button*/
+#submit:hover{
+	background:#E03D3C;
+	color:white;
+}
+
+/*changing color when cursor hover the box*/
+#nameInput:hover{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color when cursor hover the box*/
+#nameInput:focus{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color when cursor hover the box*/
+#emailInput:hover{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color after clicked the box*/
+#emailInput:focus{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color after clicked the box*/
+#howInput:hover{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color after clicked the box*/
+#howInput:focus{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color after clicked the box*/
+#commentInput:hover{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
+
+/*changing color after clicked the box*/
+#commentInput:focus{
+	border:1px solid #E03D3C;
+	color:#E03D3C;
+}
