@@ -80,8 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lulu_db',
         'USER': 'root',
-        'PASSWORD': 'lulu',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'lulutoday',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
@@ -101,5 +101,5 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-STATIC_ROOT = '/var/www/lulu/static'
+STATIC_ROOT = '/var/www/lulu.today/static'
 STATIC_URL = '/static/'
