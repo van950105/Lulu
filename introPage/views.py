@@ -18,5 +18,5 @@ def leaveContactInfo(request):
         #test = cursor.fetchall()
         #print test
         db.close()
-    return render_to_response('introPage.html',context_instance=RequestContext(request))
+    return render_to_response('index.html',context_instance=RequestContext(request))
 

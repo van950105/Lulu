@@ -1,231 +1,249 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing:border-box;
+imag{
+	max-width:100%;
+	width:100%;
 }
 
-*/
 
-/* top div*/
-.topHead{
-	/* different display for different browsers*/
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	justify-content: flex-start;
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-	border-bottom: 1px solid #9F9F9F;
+#top_head{
+	top:0;
+	left:0;
+	height:3vw;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:fixed;
+	display:block;
+	border-bottom:1px solid #9F9F9F;
+	background-color:rgba(255,255,255,1.00);
 }
 
-/*small logo inside the top Div */
-.sLogo{
-	margin:2px;
+#slogo{
+	width:2vw;
+	position:absolute;
+	top:0.5vw;
+	left:0.5vw;
 }
-/*site name text inside the top Div */
-.siteName{
-	margin-left: 2px;
-	padding: 2px;
-	font-size: 20.88pt;
+
+#siteName{
+	position:absolute;
+	left:3vw;
+	top:0.7vw;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	margin-top: 2px;	
+	font-size:1.5vw;
 }
 
-/*main body Div*/
-.middle{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	  
-	-webkit-flex-flow: row wrap;
-	/*justify-content:center;
-	max-width: 960px;*/
-	margin: 0px auto;
-	-webkit-align-content:center;
-}
- /*big logo of left side of mid Div */
-.bLogo{
-	margin-right: 27px;
-	margin-left: auto; /* centered*/
-	margin-top: 10%;
+#wrapper{
+	width:80%;
+	background-color:white;
+	margin:auto;
+	overflow:auto;
 }
 
-/*text Div of the mid Div*/
-.midRight{
-	margin-top: 9%;
-	margin-left: 13px;
-	margin-right: auto; /*centered*/
+#left{
+	width:50%;
+	background-color:white;
+	padding-top:10vw;
+	margin:0;
+	float:left;
 }
 
+#right{
+	width:50%;
+	background-color:white;
+	padding-top:10vw;
+	margin:0;
+	float:left;
+}
+	
+
+#blogo{
+	width:35vw;
+}
+
+/*---------- right ----------------*/
 /* first head */
-.hello{
-	padding: 0px;
-	font-size: 48pt;
+#hello{
+	padding: 0;
+	font-size: 5vw;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 800;
-	letter-spacing: -2.5px; /*kerning letters*/
+	letter-spacing: -0.2vw; /*kerning letters*/
 	text-align: left;
-	line-height: 50px; /*tracking lines*/
-	margin-top: 11px;
+	line-height: 4vw; /*tracking lines*/
+	margin-top: 0;
 }
 
 /*second head*/
-.welcome{
-	margin-top: -37px;
-	margin-bottom: 22px;
-	font-size: 36pt;
+#welcome{
+	font-size: 3.5vw;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
+	letter-spacing: -0.2vw; /*kerning letters*/
+	margin-top: -2.5vw;
+	margin-bottom: 2vw;
+	margin-left: o;
+	padding-bottom: 0.4vw;
 	border-top: 1px solid #9F9F9F;
 	border-bottom: 1px solid #9F9F9F;
-	width: 450px;
-	padding-bottom: 0px;
-	letter-spacing: -2.8px; /*kerning letters*/
-	margin-left: 0px;
+	width: 33.2vw;
+	
+	
 }
 
-.introduction{
-	margin-top: -15px;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	font-size: 14.98pt;
+#introduction{
+	font-size: 1.5vw;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	line-height: 23px; /*tracking lines*/
+	line-height: 1.7vw; /*tracking lines*/
+	margin-top: -1.3vw;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
 }
 
 p {
-	margin:0px;
+	margin:0;
 }
 
 #p2 {
-	margin-top:9px;
+	margin-top:0.8vw;
 }
 
-form{
-	margin-top: 10px;
-}
+
 
 /*input box formating*/
 #nameInput{
+	height:1.5vw;	
+	margin-left: 0;
 	border:1px solid #9F9F9F;
-	font-family: 'Roboto', sans-serif;
-	font-style: Italic;
-	font-weight: 300;
-	color:#9F9F9F;
-	height:17px;
-	width:295px;
+	margin-top:1.6vw;
+	font-size:0.8vw;
 }
 
-/*input box formating*/
 #emailInput{
+	height:1.5vw;	
+	margin-left: 0;
+	width:35vw;
 	border:1px solid #9F9F9F;
-	font-family: 'Roboto', sans-serif;
-	font-style: Italic;
-	font-weight: 300;
-	color:#9F9F9F;
-	height:17px;
-	width:450px;
+	font-size:0.8vw;
 }
 
-/*input box formating*/
 #howInput{
+	height:1.5vw;	
+	margin-left: 0;
+	width:35vw;
 	border:1px solid #9F9F9F;
-	font-family: 'Roboto', sans-serif;
-	font-style: Italic;
-	font-weight: 300;
-	color:#9F9F9F;
-	height:17px;
-	width:450px;
+	font-size:0.8vw;
 }
 
-/*input box formating*/
 #commentInput{
 	border:1px solid #9F9F9F;
 	font-family: 'Roboto', sans-serif;
 	font-style: Italic;
 	font-weight: 300;
 	color:#9F9F9F;
-	height:17px;
-	width:450px;
+	height:1.5vw;
+	width:35vw;
+	font-size:0.8vw;
 }
 
 /*submit button formating*/
 #submit{
-	border: 1px solid #E03D3C;
+	border: 1px solid #FF0018;
 	background: white;
 	font-family: 'Roboto', sans-serif;
 	font-style: Italic;
 	font-weight: 300;
-	color: #E03D3C;
-	width: 151px;
+	color: #FF0018;
+	width: 10.3vw;
+	padding-top:0.47vw;
+	padding-bottom:0.26vw;
+	font-size:0.8vw;
+	
 }
+
 
 /*changing color when cursor hover the button*/
 #submit:hover{
-	background:#E03D3C;
+	background:#FF0018;
 	color:white;
 }
 
 /*changing color when cursor hover the box*/
 #nameInput:hover{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color when cursor hover the box*/
 #nameInput:focus{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color when cursor hover the box*/
 #emailInput:hover{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color after clicked the box*/
 #emailInput:focus{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color after clicked the box*/
 #howInput:hover{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color after clicked the box*/
 #howInput:focus{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color after clicked the box*/
 #commentInput:hover{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
 }
 
 /*changing color after clicked the box*/
 #commentInput:focus{
-	border:1px solid #E03D3C;
+	border:1px solid #FF0018;
 	color:#E03D3C;
+}
+
+@media screen and (max-width:550px){
+	#left{
+		width:100%;
+		float:none;
+	}
+	
+	#right{
+		width:100%;
+		float:none;
+	}
+	
+	#blogo{
+		margin:auto;
+		overflow:auto;
+		padding-left:30%;
+	}
+	
+	#rwrapper{
+		padding-left:30%;
+	}
+	
+	#wrapper{
+		width:100%;
+	}
 }
